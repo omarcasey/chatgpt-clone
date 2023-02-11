@@ -1,3 +1,4 @@
+import ClientProvider from '@/components/ClientProvider'
 import Login from '@/components/Login'
 import { SessionProvider } from '@/components/SessionProvider'
 import Sidebar from '@/components/Sidebar'
@@ -24,7 +25,9 @@ export default async function RootLayout({
               <div className='bg-[#202123] max-w-xs h-screen overflow-y-auto md:min-w-[20rem]'>
                 <Sidebar />
               </div>
-              {/* ClientProvider - Notification */}
+
+              <ClientProvider />
+              
               <div className='bg-[#343541] flex-1'>{children}</div>
             </div>
           )}

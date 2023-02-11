@@ -9,7 +9,7 @@ const firebaseConfig = {
     storageBucket: "chatgpt-clone-e290e.appspot.com",
     messagingSenderId: "863565536512",
     appId: "1:863565536512:web:d55c06c97dae8403c427e5"
-};
+  };
 
 // Initialize Firebase
 const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
