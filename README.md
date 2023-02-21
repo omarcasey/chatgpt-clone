@@ -12,10 +12,15 @@ The ChatGPT App is a web-based application that allows users to interact with Op
 
 ## Technologies Used:
 React
+
 Next.js
+
 TypeScript
+
 Tailwind CSS
+
 Firebase
+
 NextAuth.js
 
 ## Demo
